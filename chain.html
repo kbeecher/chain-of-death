@@ -1,0 +1,23 @@
+<html>
+    <script src="https://cdn.rawgit.com/maxlath/wikidata-sdk/master/dist/wikidata-sdk.min.js"></script>
+    <script src="chain.js">
+    </script>
+    <body>
+        <h1>The Chain of Death</h1>
+        <input id="startDate" type="date">
+        <p>If you're not using Chrome, date format should be 'yyyy-mm-dd'</p>
+        <button id="go" onclick="addToChain()">Get predecessor</button>
+        <table id="outputTable">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>DOB</td>
+                    <td>DOD</td>
+                    <td>Description</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </body>
+</html>
